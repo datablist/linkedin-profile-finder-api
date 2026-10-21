@@ -6,6 +6,7 @@
  *
  * Use Node.js 24.3 or newer. Set DATABLIST_API_KEY, then run from the repo root:
  * node typescript/example.ts
+ * Or: npx tsx typescript/example.ts
  *
  * Edit people at the bottom and the settings in the payload to try your own
  * inputs. This example submits one task, with up to 10,000 inputs. Calls can

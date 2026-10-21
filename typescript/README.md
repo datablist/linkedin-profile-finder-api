@@ -13,7 +13,13 @@ export DATABLIST_API_KEY='your-personal-api-key'
 node typescript/example.ts
 ```
 
-From this `typescript` folder, run `node example.ts` instead.
+Or run with `tsx`, without installing it globally:
+
+```sh
+npx tsx typescript/example.ts
+```
+
+From this `typescript` folder, use `node example.ts` or `npx tsx example.ts`.
 Create your key on the [Datablist API page](https://app.datablist.com/account/api).
 Calls can consume credits; see the current
 [credit cost and limits](https://platform.datablist.com/docs/enrichments/tools/linkedin-profile-lookup#credits-and-limits)

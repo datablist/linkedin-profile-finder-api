@@ -154,6 +154,12 @@ export DATABLIST_API_KEY='your-personal-api-key'
 node typescript/example.ts
 ```
 
+Or run with `tsx`, without installing it globally:
+
+```sh
+npx tsx typescript/example.ts
+```
+
 See the [TypeScript guide](typescript/README.md) for editable inputs and settings.
 
 ## Documentation
