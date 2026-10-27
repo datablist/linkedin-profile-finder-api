@@ -11,6 +11,15 @@ Use it to add LinkedIn URLs to CRM contacts, prepare prospect lists, or connect
 existing contact records to a profile lookup workflow. A company keyword helps
 distinguish people who share the same name.
 
+## Cost
+
+**2.5 credits per attempted lookup**, whether or not a profile is found.
+Empty or invalid inputs that are not searched cost zero.
+
+Costs are in Datablist credits. Each result reports its actual `creditsUsed`.
+See the [API cost and limits](https://platform.datablist.com/docs/enrichments/tools/linkedin-profile-lookup#credits-and-limits)
+and [credit pack pricing](https://www.datablist.com/pricing) for current rates.
+
 ## Get started
 
 Choose [Python](python/README.md) or [TypeScript](typescript/README.md).
@@ -28,11 +37,6 @@ python sync_requests.py
 
 Edit the `people` list at the bottom of the script to try your own names.
 See the [Python guide](python/README.md) for setup and the async example.
-
-Searches consume account credits, including those that find no profile. See the
-current [credit cost and limits](https://platform.datablist.com/docs/enrichments/tools/linkedin-profile-lookup#credits-and-limits)
-and [pricing](https://www.datablist.com/pricing). Each result includes its actual
-`creditsUsed`.
 
 ## Input and output
 
